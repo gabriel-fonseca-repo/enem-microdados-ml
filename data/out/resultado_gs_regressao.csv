@@ -1,0 +1,10 @@
+Modelo,Melhor pontuação,Melhores parâmetros,Resultado avaliação
+LinearRegression,0.4902247082584128,{},0.49321538334089376
+Ridge,0.49022470833645393,{'alpha': 0.1},0.4932153736281001
+Lasso,0.4884884836970779,{'alpha': 0.001},0.49143687096392497
+ElasticNet,0.4890943017860566,"{'alpha': 0.001, 'l1_ratio': 0.1}",0.4920521048362022
+BayesianRidge,0.4902247082970816,"{'alpha_1': 0.001, 'lambda_1': 0.001}",0.49321538130496256
+DecisionTreeRegressor,0.5227592673385023,"{'max_depth': 10, 'min_samples_leaf': 10, 'min_samples_split': 2}",0.5241621546745944
+RandomForestRegressor,0.5241917091089057,"{'max_depth': 10, 'max_features': 'sqrt', 'n_estimators': 200}",0.5253765787540732
+GradientBoostingRegressor,0.5252896470948157,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}",0.5261330628837905
+KNeighborsRegressor,0.4732800097044752,"{'algorithm': 'brute', 'n_neighbors': 9, 'weights': 'uniform'}",0.47627263874779546
