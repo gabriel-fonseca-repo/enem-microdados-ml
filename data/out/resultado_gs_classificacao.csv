@@ -1,1 +1,12 @@
-
+Modelo,Melhor pontuação,Melhores parâmetros,Resultado avaliação
+LogisticRegression,0.7482392126995899,"{'C': 100, 'max_iter': 1000, 'penalty': 'l2', 'solver': 'saga'}",0.7499648550622768
+KNeighborsClassifier,0.743807372057468,"{'algorithm': 'ball_tree', 'n_neighbors': 20, 'weights': 'uniform'}",0.7466752888913881
+DecisionTreeClassifier,0.7466225217869009,"{'max_depth': 10, 'min_samples_leaf': 5, 'min_samples_split': 2}",0.7494306520088846
+RandomForestClassifier,0.7475890215937028,"{'max_depth': 10, 'max_features': 'sqrt', 'n_estimators': 200}",0.750077318862991
+GradientBoostingClassifier,0.748147833934609,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 50}",0.7500210869626339
+AdaBoostClassifier,0.7481794654161231,"{'learning_rate': 0.1, 'n_estimators': 50}",0.7496134056850451
+GaussianNB,0.7449882592699897,{},0.7473500716956729
+MultinomialNB,0.7358855947190648,{'alpha': 0.01},0.7379312283858633
+BernoulliNB,0.7358855947190648,{'alpha': 0.01},0.7379312283858633
+Perceptron,0.7396601962210172,"{'alpha': 0.0001, 'max_iter': 1000, 'penalty': 'l2'}",0.5620378440689403
+SGDClassifier,0.7442572267415086,"{'alpha': 0.0001, 'learning_rate': 'optimal', 'loss': 'modified_huber', 'penalty': 'elasticnet'}",0.7433576067703208
