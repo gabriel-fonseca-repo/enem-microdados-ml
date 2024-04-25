@@ -1,0 +1,4 @@
+Modelo,Acurácia
+Regressão Logística,0.4073645652593021
+Random Forest,0.4038943512627723
+Gradient Boosting,0.40447272026219394
